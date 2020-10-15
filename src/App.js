@@ -1,9 +1,10 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import QuoteCard from './components/QuoteCard';
+import QuoteList from './components/QuoteList';
+//import QuoteCard from './components/QuoteCard';
 
 
-function App() {
+/*function App() {
   return (
     <div className="App">
       <Navbar />
@@ -19,6 +20,17 @@ function App() {
       />
     </div>
   );
+}*/
+
+function App() {
+  return (
+    <div>
+      <Navbar/>
+      <QuoteList/>
+    </div>
+  )
 }
+
+
 
 export default App;
